@@ -6,14 +6,14 @@
     <title>VISI & MISI SEKOLAH DASAR NEGERI KESILIR 02</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Website Resmi Visi dan Misi SD Negeri Kesilir 02. Mewujudkan peserta didik yang beriman, bertakwah, berakhlak mulia, berbudaya, serta cerdas dan terampil.">
-    <meta name="keywords" content="SDN Kesilir 02, Visi Misi SDN Kesilir 02, Sekolah Dasar Kesilir 02, SD Kesilir, Pendidikan Kesilir Jember">
+    <meta name="description" content="Website Resmi Visi, Misi, Jadwal Asesmen, dan Kegiatan SD Negeri Kesilir 02. Mewujudkan peserta didik yang beriman, bertakwah, berakhlak mulia, berbudaya, serta cerdas dan terampil.">
+    <meta name="keywords" content="SDN Kesilir 02, Visi Misi SDN Kesilir 02, Jadwal Asesmen SDN Kesilir 02, Sekolah Dasar Kesilir 02, SD Kesilir, Pendidikan Kesilir Jember">
     <meta name="author" content="SDN KESILIR 02">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="VISI & MISI SEKOLAH DASAR NEGERI KESILIR 02">
-    <meta property="og:description" content="Portal Informasi Resmi Visi, Misi, Profil, Galeri Kegiatan, dan Tenaga Kependidikan SD Negeri Kesilir 02.">
+    <meta property="og:description" content="Portal Informasi Resmi Visi, Misi, Profil, Jadwal Asesmen, Galeri Kegiatan, dan Tenaga Kependidikan SD Negeri Kesilir 02.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://lh3.googleusercontent.com/d/1U4NdqFgPAEg0Zn3azbipAnXg02tJAN3p">
 
@@ -727,71 +727,51 @@
         }
 
         /* ==========================================================================
-           8. MENU 5 & 6: VISI SEKOLAH & MISI SEKOLAH
+           8. MENU 5: JADWAL ASESMEN TENGAH SEMESTER TAHUN 2026
            ========================================================================== */
-        .dedicated-visi-box {
+        .table-responsive {
+            overflow-x: auto;
             background: var(--white);
             border-radius: var(--radius-lg);
-            padding: 50px;
             box-shadow: var(--shadow-md);
-            border: 2px solid var(--sky-blue);
-            text-align: center;
-            max-width: 900px;
-            margin: 0 auto;
+            padding: 25px;
+            border: 1px solid #e2e8f0;
         }
 
-        .visi-quote {
-            font-size: 1.75rem;
+        .jadwal-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.88rem;
+            text-align: center;
+        }
+
+        .jadwal-table th, .jadwal-table td {
+            border: 1px solid #cbd5e1;
+            padding: 10px 8px;
+            vertical-align: middle;
+        }
+
+        .jadwal-table th {
+            background-color: var(--primary-dark);
+            color: var(--white);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.82rem;
+            letter-spacing: 0.5px;
+        }
+
+        .jadwal-table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .jadwal-table tr:hover {
+            background-color: #e0f2fe;
+        }
+
+        .day-header {
             font-weight: 700;
             color: var(--primary-dark);
-            line-height: 1.5;
-            margin: 25px 0;
-            position: relative;
-        }
-
-        .misi-numbered-list {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            max-width: 950px;
-            margin: 0 auto;
-        }
-
-        .misi-item-full {
-            background: var(--white);
-            padding: 25px 30px;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-sm);
-            display: flex;
-            align-items: center;
-            gap: 25px;
-            border-left: 6px solid var(--primary-medium);
-            transition: transform 0.2s ease;
-        }
-
-        .misi-item-full:hover {
-            transform: translateX(8px);
-            box-shadow: var(--shadow-md);
-        }
-
-        .misi-badge-num {
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(135deg, var(--primary-medium), var(--primary-dark));
-            color: var(--white);
-            font-weight: 800;
-            font-size: 1.4rem;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-        }
-
-        .misi-item-text {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--primary-dark);
+            background-color: #f1f5f9 !important;
         }
 
         /* Floating WhatsApp Button */
@@ -975,8 +955,8 @@
                 <li><a href="#visi-misi" class="nav-link"><i class="fa-solid fa-bullseye"></i> Visi & Misi</a></li>
                 <li><a href="#profil" class="nav-link"><i class="fa-solid fa-school"></i> Profil Sekolah</a></li>
                 <li><a href="#guru" class="nav-link"><i class="fa-solid fa-users"></i> Guru & Tendik</a></li>
-                <li><a href="#visi" class="nav-link"><i class="fa-solid fa-eye"></i> Visi Sekolah</a></li>
-                <li><a href="#misi" class="nav-link"><i class="fa-solid fa-list-check"></i> Misi Sekolah</a></li>
+                <li><a href="#jadwal" class="nav-link"><i class="fa-solid fa-calendar-days"></i> Jadwal Asesmen</a></li>
+                <li><a href="#kegiatan" class="nav-link"><i class="fa-solid fa-images"></i> Galeri Kegiatan</a></li>
             </ul>
         </div>
     </nav>
@@ -1353,7 +1333,7 @@
         </section>
 
         <!-- ==========================================================================
-             4. MENU GURU DAN TENAGA KEPENDIDIKAN
+             4. MENU GURU DAN TENAGA KEPENDIDIKAN (#guru)
              ========================================================================== -->
         <section id="guru" class="spa-page">
             <div class="container section-padding">
@@ -1502,80 +1482,248 @@
         </section>
 
         <!-- ==========================================================================
-             5. MENU VISI SEKOLAH KHUSUS (#visi)
+             5. MENU JADWAL (#jadwal)
              ========================================================================== -->
-        <section id="visi" class="spa-page">
+        <section id="jadwal" class="spa-page">
             <div class="container section-padding">
                 <div class="section-header">
-                    <span class="section-badge">Rumusan Resmi</span>
-                    <h2 class="section-title">Visi SD Negeri Kesilir 02</h2>
-                    <p class="section-subtitle">Arah pandang dan cita-cita masa depan yang ingin dicapai secara berkesinambungan.</p>
+                    <span class="section-badge">Informasi Ujian & Evaluasi</span>
+                    <h2 class="section-title">Jadwal Asesmen Tengah Semester I Tahun Pelajaran 2026/2027[cite: 1]</h2>
+                    <p class="section-subtitle">Jadwal pelaksanaan Asesmen Tengah Semester Tahun 2026 untuk seluruh jenjang kelas 1 sampai dengan kelas 6[cite: 1].</p>
                 </div>
 
-                <div class="dedicated-visi-box">
-                    <i class="fa-solid fa-quote-left" style="font-size: 2.5rem; color: var(--accent-blue);"></i>
-                    <div class="visi-quote">
-                        "Terwujudnya peserta didik yang beriman, bertakwah, berakhlak mulia, berbudaya, serta cerdas dan terampil."
-                    </div>
-                    <i class="fa-solid fa-quote-right" style="font-size: 2.5rem; color: var(--accent-blue);"></i>
+                <div class="table-responsive">
+                    <table class="jadwal-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 4%;">NO</th>
+                                <th style="width: 16%;">HARI / TANGGAL</th>
+                                <th style="width: 6%;">JAM KE</th>
+                                <th style="width: 12%;">WAKTU</th>
+                                <th style="width: 10.3%;">KELAS 1</th>
+                                <th style="width: 10.3%;">KELAS 2</th>
+                                <th style="width: 10.3%;">KELAS 3</th>
+                                <th style="width: 10.3%;">KELAS 4</th>
+                                <th style="width: 10.3%;">KELAS 5</th>
+                                <th style="width: 10.3%;">KELAS 6</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- SENIN -->
+                            <tr>
+                                <td rowspan="2" class="day-header">1</td>
+                                <td rowspan="2" class="day-header">SENIN<br>28 September 2026[cite: 1]</td>
+                                <td>I</td>
+                                <td>07.30 – 09.00[cite: 1]</td>
+                                <td>PAI[cite: 1]</td>
+                                <td>PAI[cite: 1]</td>
+                                <td>PAI[cite: 1]</td>
+                                <td>PAI[cite: 1]</td>
+                                <td>PAI[cite: 1]</td>
+                                <td>PAI[cite: 1]</td>
+                            </tr>
+                            <tr>
+                                <td>II</td>
+                                <td>09.30 – 11.00[cite: 1]</td>
+                                <td>BHS. INDONESIA[cite: 1]</td>
+                                <td>BHS. INDONESIA[cite: 1]</td>
+                                <td>BHS. INDONESIA[cite: 1]</td>
+                                <td>BHS. INDONESIA[cite: 1]</td>
+                                <td>BHS. INDONESIA[cite: 1]</td>
+                                <td>BHS. INDONESIA[cite: 1]</td>
+                            </tr>
 
-                    <div style="margin-top: 40px; text-align: left; background: var(--bg-light); padding: 30px; border-radius: var(--radius-md);">
-                        <h4 style="color: var(--primary-dark); font-size: 1.15rem; margin-bottom: 15px;">Makna Indikator Visi:</h4>
-                        <ul style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem;">
-                            <li><strong style="color: var(--primary-medium);">1. Beriman & Bertakwah:</strong> Memiliki landasan spiritual yang kuat, taat menjalankan perintah Tuhan Yang Maha Esa.</li>
-                            <li><strong style="color: var(--primary-medium);">2. Berakhlak Mulia:</strong> Menerapkan sopan santun dan budi luhur dalam kehidupan sehari-hari.</li>
-                            <li><strong style="color: var(--primary-medium);">3. Berbudaya:</strong> Menghargai seni budaya lokal, menjaga kebersihan lingkungan, serta menjunjung kearifan bangsa.</li>
-                            <li><strong style="color: var(--primary-medium);">4. Cerdas & Terampil:</strong> Unggul dalam akademik, berpikir kritis, serta memiliki kecakapan hidup (life skills) yang kreatif.</li>
-                        </ul>
-                    </div>
+                            <!-- SELASA -->
+                            <tr>
+                                <td rowspan="2" class="day-header">2</td>
+                                <td rowspan="2" class="day-header">SELASA<br>29 September 2026[cite: 1]</td>
+                                <td>I</td>
+                                <td>07.30 – 09.00[cite: 1]</td>
+                                <td>MATEMATIKA[cite: 1]</td>
+                                <td>MATEMATIKA[cite: 1]</td>
+                                <td>MATEMATIKA[cite: 1]</td>
+                                <td>MATEMATIKA[cite: 1]</td>
+                                <td>MATEMATIKA[cite: 1]</td>
+                                <td>MATEMATIKA[cite: 1]</td>
+                            </tr>
+                            <tr>
+                                <td>II</td>
+                                <td>09.30 – 11.00[cite: 1]</td>
+                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
+                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
+                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
+                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
+                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
+                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
+                            </tr>
+
+                            <!-- RABU -->
+                            <tr>
+                                <td rowspan="2" class="day-header">3</td>
+                                <td rowspan="2" class="day-header">RABU<br>30 September 2026[cite: 1]</td>
+                                <td>I</td>
+                                <td>07.30 – 09.00[cite: 1]</td>
+                                <td>SBdP[cite: 1]</td>
+                                <td>SBdP[cite: 1]</td>
+                                <td>IPAS[cite: 1]</td>
+                                <td>IPAS[cite: 1]</td>
+                                <td>IPAS[cite: 1]</td>
+                                <td>IPAS[cite: 1]</td>
+                            </tr>
+                            <tr>
+                                <td>II</td>
+                                <td>09.30 – 11.00[cite: 1]</td>
+                                <td>BTA[cite: 1]</td>
+                                <td>BTA[cite: 1]</td>
+                                <td>SBdP[cite: 1]</td>
+                                <td>SBdP[cite: 1]</td>
+                                <td>SBdP[cite: 1]</td>
+                                <td>SBdP[cite: 1]</td>
+                            </tr>
+
+                            <!-- KAMIS -->
+                            <tr>
+                                <td rowspan="2" class="day-header">4</td>
+                                <td rowspan="2" class="day-header">KAMIS<br>1 Oktober 2026[cite: 1]</td>
+                                <td>I</td>
+                                <td>07.30 – 09.00[cite: 1]</td>
+                                <td>BHS. INGGRIS[cite: 1]</td>
+                                <td>BHS. INGGRIS[cite: 1]</td>
+                                <td>BHS. INGGRIS[cite: 1]</td>
+                                <td>BHS. INGGRIS[cite: 1]</td>
+                                <td>BHS. INGGRIS[cite: 1]</td>
+                                <td>BHS. INGGRIS[cite: 1]</td>
+                            </tr>
+                            <tr>
+                                <td>II</td>
+                                <td>09.30 – 11.00[cite: 1]</td>
+                                <td>BHS. JAWA[cite: 1]</td>
+                                <td>BHS. JAWA[cite: 1]</td>
+                                <td>BTA[cite: 1]</td>
+                                <td>BTA[cite: 1]</td>
+                                <td>BTA[cite: 1]</td>
+                                <td>BTA[cite: 1]</td>
+                            </tr>
+
+                            <!-- JUMAT -->
+                            <tr>
+                                <td rowspan="2" class="day-header">5</td>
+                                <td rowspan="2" class="day-header">JUMAT<br>2 Oktober 2026[cite: 1]</td>
+                                <td>I</td>
+                                <td>07.30 – 08.30[cite: 1]</td>
+                                <td>PJOK[cite: 1]</td>
+                                <td>PJOK[cite: 1]</td>
+                                <td>BHS. JAWA[cite: 1]</td>
+                                <td>BHS. JAWA[cite: 1]</td>
+                                <td>BHS. JAWA[cite: 1]</td>
+                                <td>BHS. JAWA[cite: 1]</td>
+                            </tr>
+                            <tr>
+                                <td>II</td>
+                                <td>09.00 – 10.30[cite: 1]</td>
+                                <td>-[cite: 1]</td>
+                                <td>-[cite: 1]</td>
+                                <td>PJOK[cite: 1]</td>
+                                <td>PJOK[cite: 1]</td>
+                                <td>PJOK[cite: 1]</td>
+                                <td>PJOK[cite: 1]</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
 
         <!-- ==========================================================================
-             6. MENU MISI SEKOLAH KHUSUS (#misi)
+             6. MENU GALERI KEGIATAN (#kegiatan)
              ========================================================================== -->
-        <section id="misi" class="spa-page">
+        <section id="kegiatan" class="spa-page">
             <div class="container section-padding">
                 <div class="section-header">
-                    <span class="section-badge">Langkah Strategis</span>
-                    <h2 class="section-title">Misi SD Negeri Kesilir 02</h2>
-                    <p class="section-subtitle">Tindakan nyata dan agenda operasional untuk mewujudkan Visi Sekolah secara terukur.</p>
+                    <span class="section-badge">Dokumentasi Sekolah</span>
+                    <h2 class="section-title">Galeri Kegiatan Siswa</h2>
+                    <p class="section-subtitle">Potret aktivitas pembelajaran, pembiasaan religius, program berkah, serta ekstrakurikuler siswa-siswi SD Negeri Kesilir 02.</p>
                 </div>
 
-                <div class="misi-numbered-list">
-                    <div class="misi-item-full">
-                        <div class="misi-badge-num">1</div>
-                        <div class="misi-item-text">
-                            Membentuk anak yang beriman dan bertakwa terhadap Tuhan Yang Maha Esa.
+                <div class="activity-grid">
+                    <!-- Asmaul Husna 1 -->
+                    <div class="activity-card">
+                        <img src="https://lh3.googleusercontent.com/d/1EIPjglF3_4QRv0E56lm_uWUE03MDUccx" alt="Pembiasaan Pagi Asmaul Husna" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1EIPjglF3_4QRv0E56lm_uWUE03MDUccx&sz=w800'">
+                        <div class="activity-body">
+                            <h4>Pembiasaan Asmaul Husna Pagi</h4>
+                            <p>Kegiatan rutin doa dan pembacaan Asmaul Husna oleh seluruh siswa di halaman sekolah.</p>
                         </div>
                     </div>
 
-                    <div class="misi-item-full">
-                        <div class="misi-badge-num">2</div>
-                        <div class="misi-item-text">
-                            Membentuk anak yang berakhlak mulia, cerdas dan terampil, serta berbudi luhur.
+                    <!-- Asmaul Husna 2 -->
+                    <div class="activity-card">
+                        <img src="https://lh3.googleusercontent.com/d/1wsJgFIy5noc4t6eWtpfannNZhuYt-qO3" alt="Barisan Kedisiplinan Siswa" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1wsJgFIy5noc4t6eWtpfannNZhuYt-qO3&sz=w800'">
+                        <div class="activity-body">
+                            <h4>Kerapian & Kedisiplinan Barisan</h4>
+                            <p>Siswa-siswi membiasakan diri bersikap tertib dan rapi sebelum memasuki ruang kelas.</p>
                         </div>
                     </div>
 
-                    <div class="misi-item-full">
-                        <div class="misi-badge-num">3</div>
-                        <div class="misi-item-text">
-                            Memberikan layanan pendidikan yang bermutu, efektif, efisien, dan demokratis.
+                    <!-- Asmaul Husna 3 -->
+                    <div class="activity-card">
+                        <img src="https://lh3.googleusercontent.com/d/1k9x63viBe4Ku8xIJlZXsdhCO8NERMPeI" alt="Penguatan Karakter Religius" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1k9x63viBe4Ku8xIJlZXsdhCO8NERMPeI&sz=w800'">
+                        <div class="activity-body">
+                            <h4>Pembinaan Akhlak Spiritual</h4>
+                            <p>Penanaman nilai-nilai keagamaan untuk membentuk karakter anak berakhlak mulia.</p>
                         </div>
                     </div>
 
-                    <div class="misi-item-full">
-                        <div class="misi-badge-num">4</div>
-                        <div class="misi-item-text">
-                            Menumbuhkan semangat budaya kerja seluruh warga sekolah sehingga berdaya guna dan berhasil guna.
+                    <!-- Jumat Manis 1 -->
+                    <div class="activity-card">
+                        <img src="https://lh3.googleusercontent.com/d/1ZbbPoE65Hb0y0PzSYrbnokKYQK_oLPEV" alt="Program Jumat Manis Berkah 1" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1ZbbPoE65Hb0y0PzSYrbnokKYQK_oLPEV&sz=w800'">
+                        <div class="activity-body">
+                            <h4>Jumat Manis (Berkah) - Berbagi Rezeki</h4>
+                            <p>Program rutin bulanan untuk menumbuhkan rasa kepedulian sosial dan kebersamaan antar sesama.</p>
                         </div>
                     </div>
 
-                    <div class="misi-item-full">
-                        <div class="misi-badge-num">5</div>
-                        <div class="misi-item-text">
-                            Memberikan kesempatan kepada semua siswa untuk menyalurkan minat dan bakatnya secara maksimal.
+                    <!-- Jumat Manis 2 -->
+                    <div class="activity-card">
+                        <img src="https://lh3.googleusercontent.com/d/1OaSDTNM18UbOE9H7wIcZsEylpWBfOiuY" alt="Program Jumat Manis Berkah 2" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1OaSDTNM18UbOE9H7wIcZsEylpWBfOiuY&sz=w800'">
+                        <div class="activity-body">
+                            <h4>Silaturahmi & Doa Bersama Jumat Manis</h4>
+                            <p>Ajang mempererat rasa kekeluargaan dan membentuk jiwa berbudi pekerti luhur.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tari 1 -->
+                    <div class="activity-card">
+                        <img src="https://lh3.googleusercontent.com/d/1fv1V4CAFdwmWdMeY23xXDbw3F8rnPvvE" alt="Ekskul Seni Tari Tradisional" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1fv1V4CAFdwmWdMeY23xXDbw3F8rnPvvE&sz=w800'">
+                        <div class="activity-body">
+                            <h4>Latihan Seni Tari Tradisional</h4>
+                            <p>Siswa melatih kearifan seni dan tarian daerah untuk melestarikan budaya bangsa.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tari 2 -->
+                    <div class="activity-card">
+                        <img src="https://lh3.googleusercontent.com/d/1PEvELYX9X7Fl48qBS0myAHWYQAvTf24q" alt="Kreativitas Seni Tari Siswa" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1PEvELYX9X7Fl48qBS0myAHWYQAvTf24q&sz=w800'">
+                        <div class="activity-body">
+                            <h4>Pengembangan Bakat Seni</h4>
+                            <p>Mengasah rasa percaya diri, kreativitas, dan harmoni olah gerak siswa-siswi.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pramuka 1 -->
+                    <div class="activity-card">
+                        <img src="https://lh3.googleusercontent.com/d/1upezoWY4ZTWENjaaqzP_3H0ZENvvJafT" alt="Kegiatan Ekstrakulikuler Pramuka 1" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1upezoWY4ZTWENjaaqzP_3H0ZENvvJafT&sz=w800'">
+                        <div class="activity-body">
+                            <h4>Gerakan Pramuka Siaga & Penggalang</h4>
+                            <p>Latihan kemandirian, kepemimpinan, serta jiwa kebersamaan regu Pramuka sekolah.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pramuka 2 -->
+                    <div class="activity-card">
+                        <img src="https://lh3.googleusercontent.com/d/1RayPmyBSowBQoNKZSiq7rIUZrXbB3k7-" alt="Kegiatan Ekstrakulikuler Pramuka 2" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1RayPmyBSowBQoNKZSiq7rIUZrXbB3k7-&sz=w800'">
+                        <div class="activity-body">
+                            <h4>Ketangkasan & Keterampilan Lapangan</h4>
+                            <p>Pelatihan kedisiplinan, peraturan baris-berbaris (PBB), dan ketangkasan gotong royong.</p>
                         </div>
                     </div>
                 </div>
@@ -1604,7 +1752,7 @@
                 </div>
 
                 <div class="footer-links">
-                    <h4>Navigasi SPA</h4>
+                    <h4>Navigasi Utama</h4>
                     <ul>
                         <li><a href="#beranda">Beranda</a></li>
                         <li><a href="#visi-misi">Visi & Misi</a></li>
@@ -1614,10 +1762,10 @@
                 </div>
 
                 <div class="footer-links">
-                    <h4>Visi & Misi</h4>
+                    <h4>Informasi Siswa</h4>
                     <ul>
-                        <li><a href="#visi">Visi Sekolah</a></li>
-                        <li><a href="#misi">Misi Sekolah</a></li>
+                        <li><a href="#jadwal">Jadwal Asesmen</a></li>
+                        <li><a href="#kegiatan">Galeri Kegiatan</a></li>
                         <li><a href="https://wa.me/6285854513048" target="_blank">Konsultasi WA</a></li>
                     </ul>
                 </div>

@@ -6,13 +6,13 @@
     <title>VISI & MISI SEKOLAH DASAR NEGERI KESILIR 02</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Website Resmi Visi, Misi, Jadwal Asesmen, dan Kegiatan SD Negeri Kesilir 02. Mewujudkan peserta didik yang beriman, bertakwah, berakhlak mulia, berbudaya, serta cerdas dan terampil.">
-    <meta name="keywords" content="SDN Kesilir 02, Visi Misi SDN Kesilir 02, Jadwal Asesmen SDN Kesilir 02, Sekolah Dasar Kesilir 02, SD Kesilir, Pendidikan Kesilir Jember">
+    <meta name="description" content="Website Resmi SD Negeri Kesilir 02. Informasi Visi, Misi, Profil, Jadwal Asesmen Tengah Semester 2026, dan Kegiatan Siswa.">
+    <meta name="keywords" content="SDN Kesilir 02, Visi Misi SDN Kesilir 02, Jadwal Asesmen SDN Kesilir 02, Sekolah Dasar Kesilir 02, Jember">
     <meta name="author" content="SDN KESILIR 02">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="VISI & MISI SEKOLAH DASAR NEGERI KESILIR 02">
+    <meta property="og:title" content="SD NEGERI KESILIR 02 - Portal Resmi">
     <meta property="og:description" content="Portal Informasi Resmi Visi, Misi, Profil, Jadwal Asesmen, Galeri Kegiatan, dan Tenaga Kependidikan SD Negeri Kesilir 02.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://lh3.googleusercontent.com/d/1U4NdqFgPAEg0Zn3azbipAnXg02tJAN3p">
@@ -735,43 +735,81 @@
             border-radius: var(--radius-lg);
             box-shadow: var(--shadow-md);
             padding: 25px;
-            border: 1px solid #e2e8f0;
+            border: 1px solid #cbd5e1;
+            margin-top: 10px;
         }
 
         .jadwal-table {
             width: 100%;
+            min-width: 980px; /* Menjaga agar tampilan tabel di ponsel tetap rapi & bisa digeser */
             border-collapse: collapse;
             font-size: 0.88rem;
             text-align: center;
-        }
-
-        .jadwal-table th, .jadwal-table td {
-            border: 1px solid #cbd5e1;
-            padding: 10px 8px;
-            vertical-align: middle;
         }
 
         .jadwal-table th {
             background-color: var(--primary-dark);
             color: var(--white);
             font-weight: 700;
+            padding: 12px 10px;
+            border: 1px solid #1e3a8a;
+            font-size: 0.85rem;
             text-transform: uppercase;
-            font-size: 0.82rem;
             letter-spacing: 0.5px;
+            white-space: nowrap;
         }
 
-        .jadwal-table tr:nth-child(even) {
+        .jadwal-table td {
+            border: 1px solid #cbd5e1;
+            padding: 11px 8px;
+            vertical-align: middle;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        .jadwal-table tbody tr:nth-child(even) {
             background-color: #f8fafc;
         }
 
-        .jadwal-table tr:hover {
-            background-color: #e0f2fe;
+        .jadwal-table tbody tr:hover {
+            background-color: #f0f9ff;
         }
 
-        .day-header {
-            font-weight: 700;
+        .day-cell {
+            background-color: #f1f5f9;
+            font-weight: 700 !important;
             color: var(--primary-dark);
-            background-color: #f1f5f9 !important;
+            white-space: nowrap;
+        }
+
+        .jam-cell {
+            font-weight: 700;
+            color: var(--primary-medium);
+            background-color: #ffffff;
+        }
+
+        .waktu-cell {
+            white-space: nowrap;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #334155;
+        }
+
+        .subject-badge {
+            display: block;
+            padding: 6px 4px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.82rem;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            letter-spacing: 0.3px;
+        }
+
+        .subject-empty {
+            color: #94a3b8;
+            font-weight: 600;
+            font-size: 1rem;
         }
 
         /* Floating WhatsApp Button */
@@ -1482,151 +1520,151 @@
         </section>
 
         <!-- ==========================================================================
-             5. MENU JADWAL (#jadwal)
+             5. MENU JADWAL (#jadwal) - TAHUN PELAJARAN 2026/2027
              ========================================================================== -->
         <section id="jadwal" class="spa-page">
             <div class="container section-padding">
                 <div class="section-header">
-                    <span class="section-badge">Informasi Ujian & Evaluasi</span>
+                    <span class="section-badge">Jadwal Asesmen Resmi</span>
                     <h2 class="section-title">Jadwal Asesmen Tengah Semester I Tahun Pelajaran 2026/2027[cite: 1]</h2>
-                    <p class="section-subtitle">Jadwal pelaksanaan Asesmen Tengah Semester Tahun 2026 untuk seluruh jenjang kelas 1 sampai dengan kelas 6[cite: 1].</p>
+                    <p class="section-subtitle">Berikut adalah rincian mata pelajaran dan waktu pelaksanaan Asesmen Tengah Semester I untuk Kelas 1 hingga Kelas 6[cite: 1].</p>
                 </div>
 
                 <div class="table-responsive">
                     <table class="jadwal-table">
                         <thead>
                             <tr>
-                                <th style="width: 4%;">NO</th>
-                                <th style="width: 16%;">HARI / TANGGAL</th>
-                                <th style="width: 6%;">JAM KE</th>
-                                <th style="width: 12%;">WAKTU</th>
-                                <th style="width: 10.3%;">KELAS 1</th>
-                                <th style="width: 10.3%;">KELAS 2</th>
-                                <th style="width: 10.3%;">KELAS 3</th>
-                                <th style="width: 10.3%;">KELAS 4</th>
-                                <th style="width: 10.3%;">KELAS 5</th>
-                                <th style="width: 10.3%;">KELAS 6</th>
+                                <th style="width: 5%;">NO</th>
+                                <th style="width: 18%;">HARI / TANGGAL</th>
+                                <th style="width: 7%;">JAM KE</th>
+                                <th style="width: 13%;">WAKTU</th>
+                                <th style="width: 9.5%;">KELAS 1</th>
+                                <th style="width: 9.5%;">KELAS 2</th>
+                                <th style="width: 9.5%;">KELAS 3</th>
+                                <th style="width: 9.5%;">KELAS 4</th>
+                                <th style="width: 9.5%;">KELAS 5</th>
+                                <th style="width: 9.5%;">KELAS 6</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <!-- SENIN -->
+                            <!-- HARI 1: SENIN -->
                             <tr>
-                                <td rowspan="2" class="day-header">1</td>
-                                <td rowspan="2" class="day-header">SENIN<br>28 September 2026[cite: 1]</td>
-                                <td>I</td>
-                                <td>07.30 – 09.00[cite: 1]</td>
-                                <td>PAI[cite: 1]</td>
-                                <td>PAI[cite: 1]</td>
-                                <td>PAI[cite: 1]</td>
-                                <td>PAI[cite: 1]</td>
-                                <td>PAI[cite: 1]</td>
-                                <td>PAI[cite: 1]</td>
+                                <td rowspan="2" class="day-cell">1</td>
+                                <td rowspan="2" class="day-cell">SENIN<br><span style="font-size:0.8rem; font-weight:500; color:#475569;">28 September 2026</span>[cite: 1]</td>
+                                <td class="jam-cell">I</td>
+                                <td class="waktu-cell">07.30 – 09.00[cite: 1]</td>
+                                <td><span class="subject-badge">PAI</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PAI</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PAI</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PAI</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PAI</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PAI</span>[cite: 1]</td>
                             </tr>
                             <tr>
-                                <td>II</td>
-                                <td>09.30 – 11.00[cite: 1]</td>
-                                <td>BHS. INDONESIA[cite: 1]</td>
-                                <td>BHS. INDONESIA[cite: 1]</td>
-                                <td>BHS. INDONESIA[cite: 1]</td>
-                                <td>BHS. INDONESIA[cite: 1]</td>
-                                <td>BHS. INDONESIA[cite: 1]</td>
-                                <td>BHS. INDONESIA[cite: 1]</td>
-                            </tr>
-
-                            <!-- SELASA -->
-                            <tr>
-                                <td rowspan="2" class="day-header">2</td>
-                                <td rowspan="2" class="day-header">SELASA<br>29 September 2026[cite: 1]</td>
-                                <td>I</td>
-                                <td>07.30 – 09.00[cite: 1]</td>
-                                <td>MATEMATIKA[cite: 1]</td>
-                                <td>MATEMATIKA[cite: 1]</td>
-                                <td>MATEMATIKA[cite: 1]</td>
-                                <td>MATEMATIKA[cite: 1]</td>
-                                <td>MATEMATIKA[cite: 1]</td>
-                                <td>MATEMATIKA[cite: 1]</td>
-                            </tr>
-                            <tr>
-                                <td>II</td>
-                                <td>09.30 – 11.00[cite: 1]</td>
-                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
-                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
-                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
-                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
-                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
-                                <td>PENDIDIKAN PANCASILA[cite: 1]</td>
+                                <td class="jam-cell">II</td>
+                                <td class="waktu-cell">09.30 – 11.00[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INDONESIA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INDONESIA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INDONESIA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INDONESIA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INDONESIA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INDONESIA</span>[cite: 1]</td>
                             </tr>
 
-                            <!-- RABU -->
+                            <!-- HARI 2: SELASA -->
                             <tr>
-                                <td rowspan="2" class="day-header">3</td>
-                                <td rowspan="2" class="day-header">RABU<br>30 September 2026[cite: 1]</td>
-                                <td>I</td>
-                                <td>07.30 – 09.00[cite: 1]</td>
-                                <td>SBdP[cite: 1]</td>
-                                <td>SBdP[cite: 1]</td>
-                                <td>IPAS[cite: 1]</td>
-                                <td>IPAS[cite: 1]</td>
-                                <td>IPAS[cite: 1]</td>
-                                <td>IPAS[cite: 1]</td>
+                                <td rowspan="2" class="day-cell">2</td>
+                                <td rowspan="2" class="day-cell">SELASA<br><span style="font-size:0.8rem; font-weight:500; color:#475569;">29 September 2026</span>[cite: 1]</td>
+                                <td class="jam-cell">I</td>
+                                <td class="waktu-cell">07.30 – 09.00[cite: 1]</td>
+                                <td><span class="subject-badge">MATEMATIKA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">MATEMATIKA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">MATEMATIKA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">MATEMATIKA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">MATEMATIKA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">MATEMATIKA</span>[cite: 1]</td>
                             </tr>
                             <tr>
-                                <td>II</td>
-                                <td>09.30 – 11.00[cite: 1]</td>
-                                <td>BTA[cite: 1]</td>
-                                <td>BTA[cite: 1]</td>
-                                <td>SBdP[cite: 1]</td>
-                                <td>SBdP[cite: 1]</td>
-                                <td>SBdP[cite: 1]</td>
-                                <td>SBdP[cite: 1]</td>
-                            </tr>
-
-                            <!-- KAMIS -->
-                            <tr>
-                                <td rowspan="2" class="day-header">4</td>
-                                <td rowspan="2" class="day-header">KAMIS<br>1 Oktober 2026[cite: 1]</td>
-                                <td>I</td>
-                                <td>07.30 – 09.00[cite: 1]</td>
-                                <td>BHS. INGGRIS[cite: 1]</td>
-                                <td>BHS. INGGRIS[cite: 1]</td>
-                                <td>BHS. INGGRIS[cite: 1]</td>
-                                <td>BHS. INGGRIS[cite: 1]</td>
-                                <td>BHS. INGGRIS[cite: 1]</td>
-                                <td>BHS. INGGRIS[cite: 1]</td>
-                            </tr>
-                            <tr>
-                                <td>II</td>
-                                <td>09.30 – 11.00[cite: 1]</td>
-                                <td>BHS. JAWA[cite: 1]</td>
-                                <td>BHS. JAWA[cite: 1]</td>
-                                <td>BTA[cite: 1]</td>
-                                <td>BTA[cite: 1]</td>
-                                <td>BTA[cite: 1]</td>
-                                <td>BTA[cite: 1]</td>
+                                <td class="jam-cell">II</td>
+                                <td class="waktu-cell">09.30 – 11.00[cite: 1]</td>
+                                <td><span class="subject-badge" style="font-size:0.75rem;">PENDIDIKAN PANCASILA</span>[cite: 1]</td>
+                                <td><span class="subject-badge" style="font-size:0.75rem;">PENDIDIKAN PANCASILA</span>[cite: 1]</td>
+                                <td><span class="subject-badge" style="font-size:0.75rem;">PENDIDIKAN PANCASILA</span>[cite: 1]</td>
+                                <td><span class="subject-badge" style="font-size:0.75rem;">PENDIDIKAN PANCASILA</span>[cite: 1]</td>
+                                <td><span class="subject-badge" style="font-size:0.75rem;">PENDIDIKAN PANCASILA</span>[cite: 1]</td>
+                                <td><span class="subject-badge" style="font-size:0.75rem;">PENDIDIKAN PANCASILA</span>[cite: 1]</td>
                             </tr>
 
-                            <!-- JUMAT -->
+                            <!-- HARI 3: RABU -->
                             <tr>
-                                <td rowspan="2" class="day-header">5</td>
-                                <td rowspan="2" class="day-header">JUMAT<br>2 Oktober 2026[cite: 1]</td>
-                                <td>I</td>
-                                <td>07.30 – 08.30[cite: 1]</td>
-                                <td>PJOK[cite: 1]</td>
-                                <td>PJOK[cite: 1]</td>
-                                <td>BHS. JAWA[cite: 1]</td>
-                                <td>BHS. JAWA[cite: 1]</td>
-                                <td>BHS. JAWA[cite: 1]</td>
-                                <td>BHS. JAWA[cite: 1]</td>
+                                <td rowspan="2" class="day-cell">3</td>
+                                <td rowspan="2" class="day-cell">RABU<br><span style="font-size:0.8rem; font-weight:500; color:#475569;">30 September 2026</span>[cite: 1]</td>
+                                <td class="jam-cell">I</td>
+                                <td class="waktu-cell">07.30 – 09.00[cite: 1]</td>
+                                <td><span class="subject-badge">SBdP</span>[cite: 1]</td>
+                                <td><span class="subject-badge">SBdP</span>[cite: 1]</td>
+                                <td><span class="subject-badge">IPAS</span>[cite: 1]</td>
+                                <td><span class="subject-badge">IPAS</span>[cite: 1]</td>
+                                <td><span class="subject-badge">IPAS</span>[cite: 1]</td>
+                                <td><span class="subject-badge">IPAS</span>[cite: 1]</td>
                             </tr>
                             <tr>
-                                <td>II</td>
-                                <td>09.00 – 10.30[cite: 1]</td>
-                                <td>-[cite: 1]</td>
-                                <td>-[cite: 1]</td>
-                                <td>PJOK[cite: 1]</td>
-                                <td>PJOK[cite: 1]</td>
-                                <td>PJOK[cite: 1]</td>
-                                <td>PJOK[cite: 1]</td>
+                                <td class="jam-cell">II</td>
+                                <td class="waktu-cell">09.30 – 11.00[cite: 1]</td>
+                                <td><span class="subject-badge">BTA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BTA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">SBdP</span>[cite: 1]</td>
+                                <td><span class="subject-badge">SBdP</span>[cite: 1]</td>
+                                <td><span class="subject-badge">SBdP</span>[cite: 1]</td>
+                                <td><span class="subject-badge">SBdP</span>[cite: 1]</td>
+                            </tr>
+
+                            <!-- HARI 4: KAMIS -->
+                            <tr>
+                                <td rowspan="2" class="day-cell">4</td>
+                                <td rowspan="2" class="day-cell">KAMIS<br><span style="font-size:0.8rem; font-weight:500; color:#475569;">1 Oktober 2026</span>[cite: 1]</td>
+                                <td class="jam-cell">I</td>
+                                <td class="waktu-cell">07.30 – 09.00[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INGGRIS</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INGGRIS</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INGGRIS</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INGGRIS</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INGGRIS</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. INGGRIS</span>[cite: 1]</td>
+                            </tr>
+                            <tr>
+                                <td class="jam-cell">II</td>
+                                <td class="waktu-cell">09.30 – 11.00[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. JAWA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. JAWA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BTA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BTA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BTA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BTA</span>[cite: 1]</td>
+                            </tr>
+
+                            <!-- HARI 5: JUMAT -->
+                            <tr>
+                                <td rowspan="2" class="day-cell">5</td>
+                                <td rowspan="2" class="day-cell">JUMAT<br><span style="font-size:0.8rem; font-weight:500; color:#475569;">2 Oktober 2026</span>[cite: 1]</td>
+                                <td class="jam-cell">I</td>
+                                <td class="waktu-cell">07.30 – 08.30[cite: 1]</td>
+                                <td><span class="subject-badge">PJOK</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PJOK</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. JAWA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. JAWA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. JAWA</span>[cite: 1]</td>
+                                <td><span class="subject-badge">BHS. JAWA</span>[cite: 1]</td>
+                            </tr>
+                            <tr>
+                                <td class="jam-cell">II</td>
+                                <td class="waktu-cell">09.00 – 10.30[cite: 1]</td>
+                                <td><span class="subject-empty">-</span>[cite: 1]</td>
+                                <td><span class="subject-empty">-</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PJOK</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PJOK</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PJOK</span>[cite: 1]</td>
+                                <td><span class="subject-badge">PJOK</span>[cite: 1]</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1640,9 +1678,9 @@
         <section id="kegiatan" class="spa-page">
             <div class="container section-padding">
                 <div class="section-header">
-                    <span class="section-badge">Dokumentasi Sekolah</span>
-                    <h2 class="section-title">Galeri Kegiatan Siswa</h2>
-                    <p class="section-subtitle">Potret aktivitas pembelajaran, pembiasaan religius, program berkah, serta ekstrakurikuler siswa-siswi SD Negeri Kesilir 02.</p>
+                    <span class="section-badge">Dokumentasi Pembelajaran</span>
+                    <h2 class="section-title">Galeri Kegiatan Siswa SD Negeri Kesilir 02</h2>
+                    <p class="section-subtitle">Dokumentasi aktivitas pembiasaan religius, program berkah bulanan, seni tari, serta keatletikan Pramuka siswa-siswi kami.</p>
                 </div>
 
                 <div class="activity-grid">

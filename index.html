@@ -184,17 +184,6 @@
             box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
         }
 
-        .btn-outline {
-            border: 2px solid var(--primary-medium);
-            color: var(--primary-medium);
-            background: transparent;
-        }
-
-        .btn-outline:hover {
-            background-color: var(--primary-medium);
-            color: var(--white);
-        }
-
         /* ==========================================================================
            2. HEADER, TOP BAR & NAVBAR
            ========================================================================== */
@@ -505,7 +494,6 @@
         .activity-body p {
             font-size: 0.88rem;
             color: var(--text-muted);
-            margin-bottom: 12px;
         }
 
         /* Social Media Banner */
@@ -1096,7 +1084,34 @@
                     </div>
                 </div>
 
-                <!-- Bagian 2: Ekstrakulikuler Tari & Pramuka -->
+                <!-- Bagian 2: Kegiatan Jumat Manis (Berkah) -->
+                <div style="margin-top: 60px;">
+                    <div class="section-header">
+                        <span class="section-badge">Program Rutin Bulanan</span>
+                        <h2 class="section-title">Kegiatan 1 Bulan Sekali Jumat Manis (Berkah)</h2>
+                        <p class="section-subtitle">Program berbagi, kebersamaan, dan pembinaan karakter kepedulian sosial yang dilaksanakan secara berkala setiap Jumat Manis.</p>
+                    </div>
+
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <img src="https://lh3.googleusercontent.com/d/1ZbbPoE65Hb0y0PzSYrbnokKYQK_oLPEV" alt="Jumat Manis Berkah 1" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1ZbbPoE65Hb0y0PzSYrbnokKYQK_oLPEV&sz=w800'">
+                            <div class="activity-body">
+                                <h4>Kebersamaan & Infaq Berkah</h4>
+                                <p>Mendidik siswa-siswi untuk saling peduli, berbagi rezeki, dan menumbuhkan rasa empati antar sesama warga sekolah.</p>
+                            </div>
+                        </div>
+
+                        <div class="activity-card">
+                            <img src="https://lh3.googleusercontent.com/d/1OaSDTNM18UbOE9H7wIcZsEylpWBfOiuY" alt="Jumat Manis Berkah 2" class="activity-img" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1OaSDTNM18UbOE9H7wIcZsEylpWBfOiuY&sz=w800'">
+                            <div class="activity-body">
+                                <h4>Silaturahmi & Doa Bersama</h4>
+                                <p>Ajang mempererat hubungan kekeluargaan antar warga sekolah dan membentuk pribadi berkepribadian luhur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bagian 3: Ekstrakulikuler Tari & Pramuka -->
                 <div style="margin-top: 60px;">
                     <div class="section-header">
                         <span class="section-badge">Pengembangan Potensi & Seni</span>
@@ -1140,7 +1155,6 @@
                             <div class="activity-body">
                                 <h4>Gerakan Pramuka Siaga & Penggalang</h4>
                                 <p>Pembentukan karakter kepemimpinan, kebersamaan, dan kemandirian melalui kegiatan Pramuka rutin.</p>
-                                <a href="https://drive.google.com/drive/folders/1IWm0PP40tRhv6UZkoo7iReTjHKeW9LOR?usp=sharing" target="_blank" class="btn btn-outline" style="padding: 8px 18px; font-size: 0.85rem; margin-top: 5px;"><i class="fa-solid fa-folder-open"></i> Galeri Pramuka Lengkap</a>
                             </div>
                         </div>
 
@@ -1149,7 +1163,6 @@
                             <div class="activity-body">
                                 <h4>Kedisiplinan & Keterampilan Lapangan</h4>
                                 <p>Latihan ketangkasan, PBB, ketrampilan tali-temali, serta penguatan jiwa gotong royong.</p>
-                                <a href="https://drive.google.com/drive/folders/1IWm0PP40tRhv6UZkoo7iReTjHKeW9LOR?usp=sharing" target="_blank" class="btn btn-outline" style="padding: 8px 18px; font-size: 0.85rem; margin-top: 5px;"><i class="fa-solid fa-images"></i> Folder Dokumentasi Drive</a>
                             </div>
                         </div>
                     </div>
@@ -1623,7 +1636,7 @@
         </div>
     </footer>
 
-    <!-- JAVASCRIPT VANILLA (GITHUB PAGES COMPATIBLE) -->
+    <!-- JAVASCRIPT VANILLA -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const pages = document.querySelectorAll('.spa-page');
